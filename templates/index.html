@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF 理论选拔赛</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="container">
+    <div class="card" style="text-align:center; margin-top:80px;">
+        <h1>🚩 CTF 与人工智能技术理论选拔赛</h1>
+        <p class="info-text">
+            考试时长 <strong>60 分钟</strong>，共 <strong>40 题</strong>，满分 <strong>100 分</strong><br>
+            题型包括单选题、多选题、填空题<br>
+            系统将在倒计时结束后自动交卷
+        </p>
+        <form action="/start" method="POST" style="max-width:400px; margin:0 auto;">
+            <input type="text" name="player_name" placeholder="请输入您的姓名 / 队伍名" required autocomplete="off">
+            <button type="submit" class="btn">开始考试</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

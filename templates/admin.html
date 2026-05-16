@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成绩汇总 - CTF 理论选拔赛</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+            <h2>📊 考试成绩汇总</h2>
+            <a href="/api/export" class="btn btn-success">⬇ 下载 CSV 报告</a>
+        </div>
+        {% if results %}
+        <table class="admin-table">
+            <thead>
+                <tr>
+                    <th>排名</th>
+                    <th>选手姓名</th>
+                    <th>得分</th>
+                    <th>满分</th>
+                    <th>用时</th>
+                    <th>校验值</th>
+                    <th>提交时间</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in results|sort(attribute='score', reverse=true) %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ r.player_name }}</td>
+                    <td><strong>{{ r.score }}</strong></td>
+                    <td>{{ r.max_score }}</td>
+                    <td>
+                        {% set m = r.time_spent // 60 %}
+                        {% set s = r.time_spent % 60 %}
+                        {{ "%02d"|format(m) }}:{{ "%02d"|format(s) }}
+                    </td>
+                    <td><code style="font-size:12px;">{{ r.token }}</code></td>
+                    <td>{{ r.created_at }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p style="color:#6b7280;">暂无考试记录。</p>
+        {% endif %}
+    </div>
+</div>
+</body>
+</html>

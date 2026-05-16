@@ -1,0 +1,163 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+h1, h2, h3 { margin-bottom: 16px; color: #1a1a2e; }
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.btn:hover { background: #1d4ed8; }
+.btn-secondary { background: #64748b; }
+.btn-secondary:hover { background: #475569; }
+.btn-success { background: #16a34a; }
+.btn-success:hover { background: #15803d; }
+.btn-warning { background: #ea580c; }
+.btn-warning:hover { background: #c2410c; }
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+input[type="text"]:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.timer-bar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #1a1a2e;
+    color: #fff;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    font-size: 15px;
+}
+.timer-bar .timer {
+    font-size: 20px;
+    font-weight: bold;
+    font-variant-numeric: tabular-nums;
+}
+.timer-bar.warning { background: #b45309; }
+.timer-bar.danger { background: #b91c1c; animation: pulse 1s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.7} }
+
+.question-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+}
+.question-header {
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 12px;
+}
+.question-header .q-num {
+    display: inline-block;
+    background: #2563eb;
+    color: #fff;
+    width: 28px; height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-right: 8px;
+}
+.options label {
+    display: block;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.options label:hover { background: #f3f4f6; border-color: #d1d5db; }
+.options input { margin-right: 8px; }
+.options label.selected { background: #dbeafe; border-color: #2563eb; }
+
+.fill-input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.result-box {
+    text-align: center;
+    padding: 40px;
+}
+.result-box .score-big {
+    font-size: 64px;
+    font-weight: 800;
+    color: #2563eb;
+}
+.result-box .score-label {
+    font-size: 18px;
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+.token-box {
+    background: #f3f4f6;
+    border-radius: 8px;
+    padding: 16px;
+    font-family: monospace;
+    font-size: 14px;
+    word-break: break-all;
+    margin-top: 12px;
+}
+
+.detail-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    font-size: 14px;
+}
+.detail-table th, .detail-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+}
+.detail-table th { background: #f9fafb; font-weight: 600; }
+.detail-table .correct { color: #16a34a; font-weight: 600; }
+.detail-table .wrong { color: #dc2626; font-weight: 600; }
+.detail-table .partial { color: #ea580c; font-weight: 600; }
+
+.admin-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.admin-table th, .admin-table td { padding: 10px; border-bottom: 1px solid #e5e7eb; }
+.admin-table th { background: #f3f4f6; text-align: left; }
+
+.info-text { color: #6b7280; font-size: 14px; margin-bottom: 20px; }

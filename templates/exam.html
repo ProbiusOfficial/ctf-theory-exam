@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>考试中 - CTF 理论选拔赛</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="timer-bar" id="timerBar">
+    <span>CTF 理论选拔赛</span>
+    <span class="timer" id="timerDisplay">--:--</span>
+    <button class="btn btn-warning" onclick="confirmSubmit()" style="padding:6px 16px; font-size:14px;">交卷</button>
+</div>
+
+<div class="container" style="padding-top:72px;">
+    <form id="examForm" action="/submit" method="POST">
+        {% for q in exam %}
+        <div class="question-card" data-qid="{{ q.id }}" data-type="{{ q.type }}">
+            <div class="question-header">
+                <span class="q-num">{{ q.exam_idx }}</span>
+                <span style="color:#6b7280; font-size:13px;">[{{ q.section }}]</span>
+                <div style="margin-top:6px;">{{ q.question }}</div>
+            </div>
+            <div class="options">
+                {% if q.type == 'single' %}
+                    {% for opt_key, opt_val in q.options.items() %}
+                    <label>
+                        <input type="radio" name="q_{{ q.id }}" value="{{ opt_key }}" onchange="saveAnswer({{ q.id }})">
+                        <strong>{{ opt_key }}.</strong> {{ opt_val }}
+                    </label>
+                    {% endfor %}
+                {% elif q.type in ('multiple', 'judge') %}
+                    {% for opt_key, opt_val in q.options.items() %}
+                    <label>
+                        <input type="checkbox" name="q_{{ q.id }}" value="{{ opt_key }}" onchange="saveAnswer({{ q.id }})">
+                        <strong>{{ opt_key }}.</strong> {{ opt_val }}
+                    </label>
+                    {% endfor %}
+                {% elif q.type == 'fill' %}
+                    <input type="text" class="fill-input" name="q_{{ q.id }}" placeholder="请输入答案" oninput="saveAnswer({{ q.id }})">
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <div style="text-align:center; margin: 32px 0 60px;">
+            <button type="button" class="btn btn-success" onclick="confirmSubmit()" style="font-size:18px; padding:14px 40px;">确认交卷</button>
+        </div>
+    </form>
+</div>
+
+<script>
+let duration = {{ duration }};
+let remaining = {{ remaining }};
+let timerInterval;
+const timerDisplay = document.getElementById('timerDisplay');
+const timerBar = document.getElementById('timerBar');
+
+function fmtTime(sec) {
+    const m = Math.floor(sec / 60).toString().padStart(2, '0');
+    const s = (sec % 60).toString().padStart(2, '0');
+    return m + ':' + s;
+}
+
+function updateTimer() {
+    timerDisplay.textContent = fmtTime(remaining);
+    if (remaining <= 300) {
+        timerBar.classList.add('danger');
+        timerBar.classList.remove('warning');
+    } else if (remaining <= 600) {
+        timerBar.classList.add('warning');
+    }
+    if (remaining <= 0) {
+        clearInterval(timerInterval);
+        alert('考试时间已到，系统将自动交卷！');
+        document.getElementById('examForm').submit();
+    }
+    remaining--;
+}
+
+// 每秒更新显示
+timerInterval = setInterval(updateTimer, 1000);
+updateTimer();
+
+// 每 30 秒与服务器同步时间，防止前端篡改
+setInterval(() => {
+    fetch('/api/time', {method: 'POST'})
+    .then(r => r.json())
+    .then(data => {
+        if (data.expired) {
+            clearInterval(timerInterval);
+            alert('考试时间已到，系统将自动交卷！');
+            document.getElementById('examForm').submit();
+        } else {
+            remaining = data.remaining;
+        }
+    });
+}, 30000);
+
+// 保存答案到 localStorage，刷新不丢失
+function saveAnswer(qid) {
+    const key = 'exam_answers';
+    let answers = JSON.parse(localStorage.getItem(key) || '{}');
+    const card = document.querySelector('.question-card[data-qid="' + qid + '"]');
+    const type = card.getAttribute('data-type');
+    if (type === 'single' || type === 'fill') {
+        const el = card.querySelector('input[name="q_' + qid + '"]');
+        answers[qid] = el ? el.value : '';
+    } else {
+        const els = card.querySelectorAll('input[name="q_' + qid + '"]:checked');
+        answers[qid] = Array.from(els).map(e => e.value).sort().join('');
+    }
+    localStorage.setItem(key, JSON.stringify(answers));
+}
+
+// 恢复答案
+function restoreAnswers() {
+    const key = 'exam_answers';
+    let answers = JSON.parse(localStorage.getItem(key) || '{}');
+    for (const qid in answers) {
+        const card = document.querySelector('.question-card[data-qid="' + qid + '"]');
+        if (!card) continue;
+        const type = card.getAttribute('data-type');
+        const val = answers[qid];
+        if (type === 'single') {
+            const el = card.querySelector('input[value="' + val + '"]');
+            if (el) el.checked = true;
+        } else if (type === 'fill') {
+            const el = card.querySelector('input[name="q_' + qid + '"]');
+            if (el) el.value = val;
+        } else {
+            for (const ch of val) {
+                const el = card.querySelector('input[value="' + ch + '"]');
+                if (el) el.checked = true;
+            }
+        }
+    }
+}
+
+function confirmSubmit() {
+    if (!confirm('确定要交卷吗？提交后无法修改答案。')) return;
+    localStorage.removeItem('exam_answers');
+    document.getElementById('examForm').submit();
+}
+
+// 页面加载时恢复答案
+restoreAnswers();
+
+// 防止意外关闭
+window.onbeforeunload = function(e) {
+    if (!sessionStorage.getItem('submitted')) {
+        return '考试进行中，确定要离开页面吗？';
+    }
+};
+</script>
+</body>
+</html>

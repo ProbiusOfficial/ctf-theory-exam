@@ -1,0 +1,1701 @@
+[
+  {
+    "id": 1,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "计算机内部存储和处理数据的最基本单位是？",
+    "options": {
+      "A": "字节（Byte）",
+      "B": "位（Bit）",
+      "C": "字（Word）",
+      "D": "字符（Character）"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "以下哪种数制是计算机内部最常用的数制？",
+    "options": {
+      "A": "十进制",
+      "B": "八进制",
+      "C": "二进制",
+      "D": "十六进制"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "将十进制数 255 转换为十六进制，结果是？",
+    "options": {
+      "A": "0xFF",
+      "B": "0xFE",
+      "C": "0x100",
+      "D": "0x99"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 4,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "在计算机中，1 字节（Byte）等于多少位（Bit）？",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "16",
+      "D": "32"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 5,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "以下哪个设备属于计算机的输入设备？",
+    "options": {
+      "A": "显示器",
+      "B": "打印机",
+      "C": "键盘",
+      "D": "音箱"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 6,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "CPU 的主要功能是？",
+    "options": {
+      "A": "存储数据",
+      "B": "执行指令和进行运算",
+      "C": "显示图像",
+      "D": "输出声音"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "计算机内存（RAM）的主要特点是？",
+    "options": {
+      "A": "断电后数据不丢失",
+      "B": "读写速度远快于硬盘，断电后数据丢失",
+      "C": "容量通常大于硬盘",
+      "D": "只能读取不能写入"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "操作系统的主要功能不包括以下哪项？",
+    "options": {
+      "A": "管理计算机硬件资源",
+      "B": "提供用户界面",
+      "C": "编译高级语言程序",
+      "D": "管理文件系统"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "在数据结构中，栈（Stack）的典型特点是？",
+    "options": {
+      "A": "先进先出（FIFO）",
+      "B": "先进后出（FILO）",
+      "C": "随机访问",
+      "D": "有序排列"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "IP 地址 192.168.1.1 属于 IPv4 的哪一类地址？",
+    "options": {
+      "A": "A 类",
+      "B": "B 类",
+      "C": "C 类",
+      "D": "D 类"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 11,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "在数据结构中，队列（Queue）的典型特点是？",
+    "options": {
+      "A": "先进先出（FIFO）",
+      "B": "先进后出（FILO）",
+      "C": "只能插入不能删除",
+      "D": "无序排列"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "以下哪种编码方式常用于将二进制数据转换为可打印的 ASCII 字符串？",
+    "options": {
+      "A": "UTF-8",
+      "B": "Base64",
+      "C": "ASCII",
+      "D": "GBK"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "section": "一、计算机基础",
+    "type": "single",
+    "question": "在 Windows 系统中，查看本机 IP 地址配置的命令是？",
+    "options": {
+      "A": "`ls`",
+      "B": "`ipconfig`",
+      "C": "`pwd`",
+      "D": "`cd`"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "section": "一、计算机基础",
+    "type": "multiple",
+    "question": "以下属于操作系统常见功能的有？",
+    "options": {
+      "A": "进程管理",
+      "B": "内存管理",
+      "C": "文件系统管理",
+      "D": "设备驱动管理"
+    },
+    "answer": "ABCD"
+  },
+  {
+    "id": 15,
+    "section": "一、计算机基础",
+    "type": "multiple",
+    "question": "以下属于常见操作系统的有？",
+    "options": {
+      "A": "Windows",
+      "B": "Linux",
+      "C": "macOS",
+      "D": "Android"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 16,
+    "section": "一、计算机基础",
+    "type": "multiple",
+    "question": "以下哪些是常见的编程语言？",
+    "options": {
+      "A": "Python",
+      "B": "C++",
+      "C": "Java",
+      "D": "Go"
+    },
+    "answer": "ABCD"
+  },
+  {
+    "id": 17,
+    "section": "一、计算机基础",
+    "type": "multiple",
+    "question": "以下哪些设备属于计算机的输出设备？",
+    "options": {
+      "A": "显示器",
+      "B": "打印机",
+      "C": "键盘",
+      "D": "音箱"
+    },
+    "answer": "ABD"
+  },
+  {
+    "id": 18,
+    "section": "一、计算机基础",
+    "type": "multiple",
+    "question": "以下关于数据库的说法正确的有？",
+    "options": {
+      "A": "MySQL 是关系型数据库",
+      "B": "MongoDB 是非关系型数据库",
+      "C": "SQL 用于操作关系型数据库",
+      "D": "Redis 是关系型数据库"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 19,
+    "section": "一、计算机基础",
+    "type": "judge",
+    "question": "固态硬盘（SSD）的读写速度通常比机械硬盘（HDD）更快。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 20,
+    "section": "一、计算机基础",
+    "type": "judge",
+    "question": "进程是资源分配的基本单位，线程是 CPU 调度的基本单位。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 21,
+    "section": "一、计算机基础",
+    "type": "judge",
+    "question": "在关系型数据库中，DELETE 语句用于删除表结构本身。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 22,
+    "section": "一、计算机基础",
+    "type": "judge",
+    "question": "HTTP 协议默认使用端口 80，HTTPS 默认使用端口 443。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 23,
+    "section": "一、计算机基础",
+    "type": "judge",
+    "question": "TCP 协议通过三次握手建立连接，通过四次挥手断开连接。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 24,
+    "section": "一、计算机基础",
+    "type": "fill",
+    "question": "OSI 七层模型从下到上依次为：物理层、数据链路层、网络层、传输层、会话层、________层、应用层。",
+    "options": {},
+    "answer": "表示"
+  },
+  {
+    "id": 25,
+    "section": "一、计算机基础",
+    "type": "fill",
+    "question": "在计算机网络中，MAC 地址的长度是________位。",
+    "options": {},
+    "answer": "48"
+  },
+  {
+    "id": 26,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "Linux 操作系统的创始人是谁？",
+    "options": {
+      "A": "Bill Gates",
+      "B": "Linus Torvalds",
+      "C": "Steve Jobs",
+      "D": "Dennis Ritchie"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 27,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 中，查看当前所在目录完整路径的命令是？",
+    "options": {
+      "A": "`ls`",
+      "B": "`cd`",
+      "C": "`pwd`",
+      "D": "`cat`"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 28,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 中，列出当前目录下文件和文件夹的命令是？",
+    "options": {
+      "A": "`cd`",
+      "B": "`ls`",
+      "C": "`rm`",
+      "D": "`mv`"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 29,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 中，创建新空目录的命令是？",
+    "options": {
+      "A": "`touch`",
+      "B": "`mkdir`",
+      "C": "`rmdir`",
+      "D": "`cp`"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 中，复制文件或目录的命令是？",
+    "options": {
+      "A": "`mv`",
+      "B": "`cp`",
+      "C": "`rm`",
+      "D": "`ln`"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 31,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 中，移动或重命名文件或目录的命令是？",
+    "options": {
+      "A": "`cp`",
+      "B": "`mv`",
+      "C": "`rm`",
+      "D": "`cat`"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 32,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 中，分页查看大文件内容的命令是？",
+    "options": {
+      "A": "`cat`",
+      "B": "`more`/`less`",
+      "C": "`head`",
+      "D": "`tail`"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 中，实时查看日志文件最后内容的命令是？",
+    "options": {
+      "A": "`head`",
+      "B": "`tail -f`",
+      "C": "`cat`",
+      "D": "`grep`"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 34,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 中，搜索文件中匹配文本行的命令是？",
+    "options": {
+      "A": "`find`",
+      "B": "`grep`",
+      "C": "`locate`",
+      "D": "`whereis`"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 35,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "权限 `rwxr-xr-x` 对应的数字权限表示是什么？",
+    "options": {
+      "A": "644",
+      "B": "755",
+      "C": "777",
+      "D": "700"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 中，切换用户身份（如切换到 root）的命令是？",
+    "options": {
+      "A": "`user`",
+      "B": "`su`",
+      "C": "`login`",
+      "D": "`switch`"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 37,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 中，查看系统磁盘使用情况的命令是？",
+    "options": {
+      "A": "`mem`",
+      "B": "`df -h`",
+      "C": "`cpu`",
+      "D": "`net`"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "section": "二、Linux 基础",
+    "type": "single",
+    "question": "在 Linux 终端中，终止当前前台进程的快捷键是？",
+    "options": {
+      "A": "Ctrl+C",
+      "B": "Ctrl+Z",
+      "C": "Ctrl+D",
+      "D": "Ctrl+A"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "section": "二、Linux 基础",
+    "type": "multiple",
+    "question": "以下哪些命令可用于查找 Linux 系统中的文件？",
+    "options": {
+      "A": "`find`",
+      "B": "`locate`",
+      "C": "`grep`",
+      "D": "`whereis`"
+    },
+    "answer": "ABD"
+  },
+  {
+    "id": 40,
+    "section": "二、Linux 基础",
+    "type": "multiple",
+    "question": "以下哪些命令可用于查看 Linux 系统中的进程信息？",
+    "options": {
+      "A": "`ps`",
+      "B": "`top`",
+      "C": "`ls`",
+      "D": "`df`"
+    },
+    "answer": "AB"
+  },
+  {
+    "id": 41,
+    "section": "二、Linux 基础",
+    "type": "multiple",
+    "question": "以下哪些是 Linux 中常见的压缩/打包命令？",
+    "options": {
+      "A": "`tar`",
+      "B": "`gzip`",
+      "C": "`zip`",
+      "D": "`cp`"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 42,
+    "section": "二、Linux 基础",
+    "type": "multiple",
+    "question": "以下哪些命令可用于查看 Linux 系统的磁盘或内存使用情况？",
+    "options": {
+      "A": "`df`",
+      "B": "`free`",
+      "C": "`du`",
+      "D": "`ps`"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 43,
+    "section": "二、Linux 基础",
+    "type": "multiple",
+    "question": "以下哪些命令可以用于修改 Linux 中文件或目录的权限和归属？",
+    "options": {
+      "A": "`chmod`",
+      "B": "`chown`",
+      "C": "`chgrp`",
+      "D": "`chmod`"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 44,
+    "section": "二、Linux 基础",
+    "type": "judge",
+    "question": "Linux 中，`chmod 777 file` 表示给所有用户赋予读写执行权限。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 45,
+    "section": "二、Linux 基础",
+    "type": "judge",
+    "question": "在 Linux 中，管道符号 `\\",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 46,
+    "section": "二、Linux 基础",
+    "type": "judge",
+    "question": "Linux 的 `/etc/passwd` 文件存储的是用户密码的密文。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 47,
+    "section": "二、Linux 基础",
+    "type": "judge",
+    "question": "Shell 脚本中，`#!/bin/bash` 被称为 Shebang，用于指定脚本的解释器。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "section": "二、Linux 基础",
+    "type": "judge",
+    "question": "在 Linux 中，`tar -xzvf archive.tar.gz` 命令用于解压 tar.gz 文件。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "section": "二、Linux 基础",
+    "type": "fill",
+    "question": "在 Linux 中，使用________命令可以将多个文件打包并压缩为 `archive.tar.gz`。",
+    "options": {},
+    "answer": "tar -czvf"
+  },
+  {
+    "id": 50,
+    "section": "二、Linux 基础",
+    "type": "fill",
+    "question": "在 Linux 中，`/etc/shadow` 文件通常存储用户密码的________值。",
+    "options": {},
+    "answer": "哈希"
+  },
+  {
+    "id": 51,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "《中华人民共和国网络安全法》正式施行的日期是？",
+    "options": {
+      "A": "2016年6月1日",
+      "B": "2017年6月1日",
+      "C": "2018年6月1日",
+      "D": "2019年6月1日"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 52,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "信息安全 CIA 三元组中，\"C\" 代表什么？",
+    "options": {
+      "A": "完整性",
+      "B": "保密性",
+      "C": "可控性",
+      "D": "可用性"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 53,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "信息安全 CIA 三元组中，\"I\" 代表什么？",
+    "options": {
+      "A": "身份认证",
+      "B": "完整性",
+      "C": "不可否认性",
+      "D": "隔离性"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 54,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "以下哪项不属于常见的信息安全基本属性？",
+    "options": {
+      "A": "保密性",
+      "B": "完整性",
+      "C": "可否认性",
+      "D": "可用性"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 55,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "ARP 欺骗攻击的主要原理是？",
+    "options": {
+      "A": "伪造 ARP 响应包",
+      "B": "切断物理连接",
+      "C": "修改 DNS 结果",
+      "D": "暴力破解密码"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 56,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "SYN Flood 攻击利用了 TCP 协议的哪个机制？",
+    "options": {
+      "A": "三次握手的半开连接",
+      "B": "四次断开过程",
+      "C": "滑动窗口",
+      "D": "确认应答"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 57,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "防火墙的主要功能是什么？",
+    "options": {
+      "A": "清除病毒",
+      "B": "控制网络流量进出，实施访问控制",
+      "C": "加速网络",
+      "D": "修复漏洞"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 58,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "IDS 与 IPS 的主要区别是？",
+    "options": {
+      "A": "IDS 只能检测，IPS 可检测并阻断",
+      "B": "IDS 更贵",
+      "C": "IPS 只能检测",
+      "D": "功能相同"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 59,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "以下哪种技术可以隐藏内部网络结构并实现多主机共享公网 IP？",
+    "options": {
+      "A": "DHCP",
+      "B": "NAT",
+      "C": "DNS",
+      "D": "ARP"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 60,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "WAF 主要用于防护哪类攻击？",
+    "options": {
+      "A": "DDoS",
+      "B": "Web 应用层攻击",
+      "C": "病毒木马",
+      "D": "物理入侵"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 61,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "以下哪种认证方式安全性最高？",
+    "options": {
+      "A": "仅用户名密码",
+      "B": "用户名密码 + 动态验证码",
+      "C": "仅验证码",
+      "D": "无认证"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 62,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "等保 2.0 将信息系统安全等级划分为几级？",
+    "options": {
+      "A": "三级",
+      "B": "四级",
+      "C": "五级",
+      "D": "六级"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 63,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "社会工程学攻击主要利用的是什么弱点？",
+    "options": {
+      "A": "计算机系统漏洞",
+      "B": "人性的心理弱点和信息泄露",
+      "C": "网络协议缺陷",
+      "D": "硬件故障"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 64,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "勒索软件（Ransomware）的主要攻击目的是？",
+    "options": {
+      "A": "窃取用户账号密码",
+      "B": "加密受害者文件并索要赎金",
+      "C": "删除所有系统文件",
+      "D": "监控网络流量"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 65,
+    "section": "三、网络安全基础",
+    "type": "single",
+    "question": "端口扫描（Port Scanning）的主要目的是什么？",
+    "options": {
+      "A": "检测网络延迟",
+      "B": "发现目标主机开放的端口和服务",
+      "C": "加密通信",
+      "D": "清除病毒"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 66,
+    "section": "三、网络安全基础",
+    "type": "multiple",
+    "question": "以下哪些属于常见的社会工程学攻击手段？",
+    "options": {
+      "A": "钓鱼邮件",
+      "B": "假冒客服电话",
+      "C": "尾随进入办公区",
+      "D": "SQL 注入"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 67,
+    "section": "三、网络安全基础",
+    "type": "multiple",
+    "question": "以下哪些措施可以有效降低恶意软件感染风险？",
+    "options": {
+      "A": "及时更新系统补丁",
+      "B": "不随意打开陌生附件",
+      "C": "安装杀毒软件",
+      "D": "关闭防火墙"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 68,
+    "section": "三、网络安全基础",
+    "type": "multiple",
+    "question": "以下哪些属于常见的 DoS/DDoS 攻击类型？",
+    "options": {
+      "A": "SYN Flood",
+      "B": "UDP Flood",
+      "C": "ICMP Flood",
+      "D": "XSS"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 69,
+    "section": "三、网络安全基础",
+    "type": "multiple",
+    "question": "以下哪些是 VPN 技术的主要功能？",
+    "options": {
+      "A": "加密通信",
+      "B": "隐藏真实 IP",
+      "C": "提高网速",
+      "D": "访问内网资源"
+    },
+    "answer": "ABD"
+  },
+  {
+    "id": 70,
+    "section": "三、网络安全基础",
+    "type": "multiple",
+    "question": "以下哪些属于网络安全应急响应的常见步骤？",
+    "options": {
+      "A": "事件发现与确认",
+      "B": "遏制与根除",
+      "C": "恢复与跟踪",
+      "D": "直接关机断电"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 71,
+    "section": "三、网络安全基础",
+    "type": "multiple",
+    "question": "以下哪些是常见的网络安全防护设备？",
+    "options": {
+      "A": "防火墙",
+      "B": "IDS/IPS",
+      "C": "WAF",
+      "D": "普通交换机"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 72,
+    "section": "三、网络安全基础",
+    "type": "judge",
+    "question": "数字签名技术可以提供身份认证、不可否认性和完整性验证。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 73,
+    "section": "三、网络安全基础",
+    "type": "judge",
+    "question": "蜜罐（Honeypot）技术通过诱捕攻击者来研究攻击手法和收集威胁情报。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 74,
+    "section": "三、网络安全基础",
+    "type": "judge",
+    "question": "双因素认证（2FA）比仅使用用户名密码的单因素认证更安全。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 75,
+    "section": "三、网络安全基础",
+    "type": "judge",
+    "question": "端口扫描的主要目的是直接入侵目标服务器。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 76,
+    "section": "三、网络安全基础",
+    "type": "judge",
+    "question": "日志审计在网络安全中的主要作用是记录和分析安全事件用于事后追溯。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 77,
+    "section": "三、网络安全基础",
+    "type": "judge",
+    "question": "SSL/TLS 协议主要用于保障浏览器与服务器之间的通信安全（HTTPS）。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 78,
+    "section": "三、网络安全基础",
+    "type": "fill",
+    "question": "在网络安全中，________攻击通过伪造电子邮件或网站诱导受害者泄露敏感信息。",
+    "options": {},
+    "answer": "钓鱼"
+  },
+  {
+    "id": 79,
+    "section": "三、网络安全基础",
+    "type": "fill",
+    "question": "网络地址转换的英文缩写是________。",
+    "options": {},
+    "answer": "NAT"
+  },
+  {
+    "id": 80,
+    "section": "三、网络安全基础",
+    "type": "fill",
+    "question": "入侵防御系统的英文缩写是________。",
+    "options": {},
+    "answer": "IPS"
+  },
+  {
+    "id": 81,
+    "section": "四、人工智能基础",
+    "type": "single",
+    "question": "AI（人工智能）的英文全称是什么？",
+    "options": {
+      "A": "Automatic Intelligence",
+      "B": "Artificial Intelligence",
+      "C": "Advanced Intelligence",
+      "D": "Applied Intelligence"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 82,
+    "section": "四、人工智能基础",
+    "type": "single",
+    "question": "以下哪个是当下最流行的大语言模型（LLM）之一？",
+    "options": {
+      "A": "GPT-4",
+      "B": "Windows 11",
+      "C": "Photoshop",
+      "D": "MySQL"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 83,
+    "section": "四、人工智能基础",
+    "type": "single",
+    "question": "在人工智能中，\"机器学习\"（Machine Learning）的核心思想是？",
+    "options": {
+      "A": "通过预先编写的固定规则处理数据",
+      "B": "让计算机从数据中自动学习规律并做出预测或决策",
+      "C": "用人工方式标注所有数据",
+      "D": "将数据存储在更大的硬盘中"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 84,
+    "section": "四、人工智能基础",
+    "type": "single",
+    "question": "以下哪种任务属于典型的 \"监督学习\" 场景？",
+    "options": {
+      "A": "给定标注好的图片分类标签，训练模型识别新图片",
+      "B": "将相似用户聚成不同群体",
+      "C": "让机器人在环境中自主探索",
+      "D": "压缩文件以节省空间"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 85,
+    "section": "四、人工智能基础",
+    "type": "single",
+    "question": "\"智能体\"（Agent）在人工智能领域通常指的是？",
+    "options": {
+      "A": "能感知环境并自主采取行动以实现目标的实体",
+      "B": "网络代理服务器",
+      "C": "杀毒软件",
+      "D": "数据库客户端"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 86,
+    "section": "四、人工智能基础",
+    "type": "single",
+    "question": "以下哪个框架是当前最流行的深度学习框架之一？",
+    "options": {
+      "A": "TensorFlow / PyTorch",
+      "B": "Excel",
+      "C": "Word",
+      "D": "PowerPoint"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 87,
+    "section": "四、人工智能基础",
+    "type": "single",
+    "question": "在大语言模型应用中，\"Prompt\"（提示词）的主要作用是？",
+    "options": {
+      "A": "指导模型生成符合预期的输出内容",
+      "B": "修复硬件故障",
+      "C": "压缩模型体积",
+      "D": "加密通信数据"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 88,
+    "section": "四、人工智能基础",
+    "type": "single",
+    "question": "以下哪种技术常用于让大语言模型连接外部工具（如搜索引擎、计算器）？",
+    "options": {
+      "A": "Function Calling（函数调用）",
+      "B": "数据压缩",
+      "C": "图像渲染",
+      "D": "音频剪辑"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 89,
+    "section": "四、人工智能基础",
+    "type": "single",
+    "question": "以下哪种技术通过让模型先检索外部知识再生成回答，以减少模型幻觉？",
+    "options": {
+      "A": "RAG（检索增强生成）",
+      "B": "数据增强",
+      "C": "模型剪枝",
+      "D": "梯度下降"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 90,
+    "section": "四、人工智能基础",
+    "type": "single",
+    "question": "神经网络中，\"过拟合\"（Overfitting）通常指的是什么现象？",
+    "options": {
+      "A": "模型在训练数据上表现很好，但在新数据上表现很差",
+      "B": "模型无法收敛",
+      "C": "训练速度太慢",
+      "D": "模型参数量太少"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 91,
+    "section": "四、人工智能基础",
+    "type": "multiple",
+    "question": "以下哪些属于常见的大语言模型应用场景？",
+    "options": {
+      "A": "智能问答客服",
+      "B": "文本摘要生成",
+      "C": "代码辅助编写",
+      "D": "人脸识别门禁"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 92,
+    "section": "四、人工智能基础",
+    "type": "multiple",
+    "question": "构建一个简单的 AI 智能体通常需要哪些基本组件？",
+    "options": {
+      "A": "感知输入模块",
+      "B": "决策/推理模块",
+      "C": "行动输出模块",
+      "D": "高性能显卡（可选）"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 93,
+    "section": "四、人工智能基础",
+    "type": "multiple",
+    "question": "以下哪些是训练神经网络时常用的技术？",
+    "options": {
+      "A": "梯度下降",
+      "B": "反向传播",
+      "C": "数据增强",
+      "D": "随机初始化"
+    },
+    "answer": "ABCD"
+  },
+  {
+    "id": 94,
+    "section": "四、人工智能基础",
+    "type": "multiple",
+    "question": "以下哪些属于机器学习的常见类型？",
+    "options": {
+      "A": "监督学习",
+      "B": "无监督学习",
+      "C": "强化学习",
+      "D": "量子学习"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 95,
+    "section": "四、人工智能基础",
+    "type": "judge",
+    "question": "人工智能中的 \"深度学习\" 是机器学习的一个子领域，主要使用多层神经网络。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 96,
+    "section": "四、人工智能基础",
+    "type": "judge",
+    "question": "大语言模型（LLM）只能处理文本，无法理解和生成代码。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 97,
+    "section": "四、人工智能基础",
+    "type": "judge",
+    "question": "RAG（检索增强生成）技术通过让模型先检索外部知识再生成回答，以减少幻觉。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 98,
+    "section": "四、人工智能基础",
+    "type": "judge",
+    "question": "神经网络中的 \"神经元\" 是模拟生物神经元的基本计算单元，负责接收输入、加权求和并输出结果。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 99,
+    "section": "四、人工智能基础",
+    "type": "fill",
+    "question": "在深度学习中，________是指神经网络从输入数据中提取特征并进行转换的基本计算单元。",
+    "options": {},
+    "answer": "神经元"
+  },
+  {
+    "id": 100,
+    "section": "四、人工智能基础",
+    "type": "fill",
+    "question": "让大语言模型根据用户输入的提示词生成回答的技术称为________工程。",
+    "options": {},
+    "answer": "Prompt"
+  },
+  {
+    "id": 101,
+    "section": "五、CTF 基础",
+    "type": "single",
+    "question": "CTF 竞赛中 \"Flag\" 通常指什么？",
+    "options": {
+      "A": "参赛队伍标识",
+      "B": "比赛计时器标记",
+      "C": "用于提交得分的特定字符串",
+      "D": "漏洞利用代码"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 102,
+    "section": "五、CTF 基础",
+    "type": "single",
+    "question": "CTF 比赛中 \"一血\"（First Blood）指的是什么？",
+    "options": {
+      "A": "第一个攻破所有题目",
+      "B": "第一个解出某道题目",
+      "C": "第一个被淘汰",
+      "D": "第一个提示"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 103,
+    "section": "五、CTF 基础",
+    "type": "single",
+    "question": "CTF 竞赛题目通常分为哪几个主要方向？",
+    "options": {
+      "A": "PWN、RE、WEB、MISC、Crypto",
+      "B": "C/C++、Java、Python、Go",
+      "C": "前端、后端、数据库、运维",
+      "D": "网络层、传输层、应用层"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 104,
+    "section": "五、CTF 基础",
+    "type": "single",
+    "question": "在 Attack-Defense（攻防）模式中，各队伍需要同时做什么？",
+    "options": {
+      "A": "仅解谜题",
+      "B": "防御自己服务并攻击其他队伍",
+      "C": "仅写报告",
+      "D": "投票淘汰"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 105,
+    "section": "五、CTF 基础",
+    "type": "single",
+    "question": "以下哪个平台是国内常见的 CTF 练习平台？",
+    "options": {
+      "A": "CTFshow / BUUCTF",
+      "B": "Steam",
+      "C": "Bilibili",
+      "D": "淘宝"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 106,
+    "section": "五、CTF 基础",
+    "type": "multiple",
+    "question": "以下哪些属于 CTF 竞赛的常见模式？",
+    "options": {
+      "A": "Jeopardy（解题模式）",
+      "B": "Attack-Defense（攻防模式）",
+      "C": "King of the Hill（占山模式）",
+      "D": "编程马拉松"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 107,
+    "section": "五、CTF 基础",
+    "type": "multiple",
+    "question": "以下哪些工具常用于 CTF 二进制题目的动态调试？",
+    "options": {
+      "A": "GDB",
+      "B": "x64dbg",
+      "C": "Wireshark",
+      "D": "Chrome"
+    },
+    "answer": "AB"
+  },
+  {
+    "id": 108,
+    "section": "五、CTF 基础",
+    "type": "judge",
+    "question": "在 CTF 的 Jeopardy 模式中，动态积分意味着解出队伍越多该题分值越低。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 109,
+    "section": "五、CTF 基础",
+    "type": "judge",
+    "question": "CTF 竞赛中，向非队友询问题目答案属于违规行为。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 110,
+    "section": "五、CTF 基础",
+    "type": "fill",
+    "question": "在 CTF 竞赛中，参赛队伍赛后撰写的题目解题报告通常称为________。",
+    "options": {},
+    "answer": "Writeup"
+  },
+  {
+    "id": 111,
+    "section": "六、Web 安全基础",
+    "type": "single",
+    "question": "SQL 注入攻击的主要原理是？",
+    "options": {
+      "A": "插入恶意 SQL 语句干扰数据库查询",
+      "B": "直接删除数据库文件",
+      "C": "修改网页 CSS",
+      "D": "发送病毒邮件"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 112,
+    "section": "六、Web 安全基础",
+    "type": "single",
+    "question": "以下哪种措施可以有效防御 SQL 注入？",
+    "options": {
+      "A": "使用参数化查询",
+      "B": "禁用输入框",
+      "C": "使用 HTTP",
+      "D": "关闭数据库"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 113,
+    "section": "六、Web 安全基础",
+    "type": "single",
+    "question": "XSS（跨站脚本攻击）的主要危害是？",
+    "options": {
+      "A": "在受害者浏览器执行恶意脚本",
+      "B": "直接删除服务器数据库",
+      "C": "修改服务器 IP",
+      "D": "降低加载速度"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 114,
+    "section": "六、Web 安全基础",
+    "type": "single",
+    "question": "以下哪种措施可以有效防御 XSS？",
+    "options": {
+      "A": "过滤输入、设置 HttpOnly Cookie",
+      "B": "禁用 JS",
+      "C": "使用 FTP",
+      "D": "不设防御"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 115,
+    "section": "六、Web 安全基础",
+    "type": "single",
+    "question": "CSRF（跨站请求伪造）攻击的核心原理是？",
+    "options": {
+      "A": "诱导已登录用户执行非自愿操作",
+      "B": "窃取密码明文",
+      "C": "植入恶意脚本",
+      "D": "监听网络流量"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 116,
+    "section": "六、Web 安全基础",
+    "type": "multiple",
+    "question": "以下哪些措施可以有效防御 CSRF 攻击？",
+    "options": {
+      "A": "添加 Token 验证",
+      "B": "校验 Referer/Origin",
+      "C": "使用验证码",
+      "D": "关闭服务器"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 117,
+    "section": "六、Web 安全基础",
+    "type": "multiple",
+    "question": "以下哪些属于常见的 Web 安全漏洞？",
+    "options": {
+      "A": "SQL 注入",
+      "B": "XSS",
+      "C": "文件上传漏洞",
+      "D": "CSRF"
+    },
+    "answer": "ABCD"
+  },
+  {
+    "id": 118,
+    "section": "六、Web 安全基础",
+    "type": "judge",
+    "question": "文件上传漏洞的主要风险是攻击者上传恶意文件（如 WebShell）到服务器执行。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 119,
+    "section": "六、Web 安全基础",
+    "type": "judge",
+    "question": "Cookie 中设置 `HttpOnly` 属性可以禁止 JavaScript 读取该 Cookie，防止 XSS 窃取。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 120,
+    "section": "六、Web 安全基础",
+    "type": "fill",
+    "question": "在 Web 安全中，________请求伪造（SSRF）可以让服务器代替攻击者向内部网络发起请求。",
+    "options": {},
+    "answer": "服务器端"
+  },
+  {
+    "id": 121,
+    "section": "七、密码学基础",
+    "type": "single",
+    "question": "凯撒密码（Caesar Cipher）是一种什么类型的密码？",
+    "options": {
+      "A": "现代对称加密",
+      "B": "古典替换密码",
+      "C": "非对称加密",
+      "D": "哈希函数"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 122,
+    "section": "七、密码学基础",
+    "type": "single",
+    "question": "将明文 \"HELLO\" 使用凯撒密码（位移 3）加密后的密文是？",
+    "options": {
+      "A": "KHOOR",
+      "B": "HELLO",
+      "C": "EBIIL",
+      "D": "OLSSV"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 123,
+    "section": "七、密码学基础",
+    "type": "single",
+    "question": "对称加密算法与非对称加密算法的主要区别是？",
+    "options": {
+      "A": "对称加密用相同密钥，非对称用公钥/私钥对",
+      "B": "对称加密更安全",
+      "C": "非对称速度更快",
+      "D": "无区别"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 124,
+    "section": "七、密码学基础",
+    "type": "single",
+    "question": "AES 是一种什么类型的加密算法？",
+    "options": {
+      "A": "对称加密",
+      "B": "非对称加密",
+      "C": "哈希算法",
+      "D": "编码算法"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 125,
+    "section": "七、密码学基础",
+    "type": "single",
+    "question": "RSA 是一种什么类型的加密算法？",
+    "options": {
+      "A": "对称加密",
+      "B": "非对称加密",
+      "C": "哈希算法",
+      "D": "编码算法"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 126,
+    "section": "七、密码学基础",
+    "type": "multiple",
+    "question": "以下哪些属于对称加密算法？",
+    "options": {
+      "A": "AES",
+      "B": "DES",
+      "C": "3DES",
+      "D": "RSA"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 127,
+    "section": "七、密码学基础",
+    "type": "multiple",
+    "question": "以下哪些是哈希函数（散列函数）的特点？",
+    "options": {
+      "A": "不可逆",
+      "B": "固定长度输出",
+      "C": "相同输入相同输出",
+      "D": "需要密钥计算"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 128,
+    "section": "七、密码学基础",
+    "type": "judge",
+    "question": "Base64 编码是一种加密方式，可以保障数据安全不被破解。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 129,
+    "section": "七、密码学基础",
+    "type": "judge",
+    "question": "在密码学中，使用 \"盐值（Salt）\" 可以使相同密码的哈希值不同，防止彩虹表攻击。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 130,
+    "section": "七、密码学基础",
+    "type": "fill",
+    "question": "MD5 算法输出的哈希值以十六进制表示时，长度为________个字符。",
+    "options": {},
+    "answer": "32"
+  },
+  {
+    "id": 131,
+    "section": "八、综合进阶",
+    "type": "single",
+    "question": "`binwalk` 工具在 CTF 杂项题目中的主要作用是什么？",
+    "options": {
+      "A": "从载体文件中提取隐藏文件",
+      "B": "绘制图片",
+      "C": "编写代码",
+      "D": "发送请求"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 132,
+    "section": "八、综合进阶",
+    "type": "single",
+    "question": "在图片隐写分析中，LSB（最低有效位）隐写修改的是像素颜色值的哪一位？",
+    "options": {
+      "A": "最高位",
+      "B": "最低位",
+      "C": "第 4 位",
+      "D": "符号位"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 133,
+    "section": "八、综合进阶",
+    "type": "single",
+    "question": "Wireshark 是一款什么类型的工具？",
+    "options": {
+      "A": "网络协议分析器",
+      "B": "图片编辑工具",
+      "C": "文本编辑器",
+      "D": "数据库管理工具"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 134,
+    "section": "八、综合进阶",
+    "type": "single",
+    "question": "PWN（二进制漏洞挖掘）中，\"栈溢出\" 攻击的核心目标是覆盖什么？",
+    "options": {
+      "A": "局部变量",
+      "B": "返回地址",
+      "C": "文件名",
+      "D": "环境变量"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 135,
+    "section": "八、综合进阶",
+    "type": "single",
+    "question": "逆向工程（Reverse Engineering）在 CTF 中的主要目的是？",
+    "options": {
+      "A": "分析程序逻辑找 Flag",
+      "B": "编写新程序",
+      "C": "优化性能",
+      "D": "绘制界面"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 136,
+    "section": "八、综合进阶",
+    "type": "multiple",
+    "question": "以下哪些工具或技术常用于 CTF 图片隐写分析？",
+    "options": {
+      "A": "StegSolve",
+      "B": "zsteg",
+      "C": "exiftool",
+      "D": "Wireshark"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 137,
+    "section": "八、综合进阶",
+    "type": "multiple",
+    "question": "以下哪些属于常见的网络层攻击类型？",
+    "options": {
+      "A": "ARP 欺骗",
+      "B": "SYN Flood",
+      "C": "ICMP 攻击",
+      "D": "SQL 注入"
+    },
+    "answer": "ABC"
+  },
+  {
+    "id": 138,
+    "section": "八、综合进阶",
+    "type": "judge",
+    "question": "ROP（Return-Oriented Programming）攻击利用程序已有的代码片段拼接执行恶意操作。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 139,
+    "section": "八、综合进阶",
+    "type": "judge",
+    "question": "在 CTF 中，PE 文件是 Windows 系统的可执行文件格式，ELF 文件是 Linux 系统的可执行文件格式。",
+    "options": {
+      "A": "正确",
+      "B": "错误"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 140,
+    "section": "八、综合进阶",
+    "type": "fill",
+    "question": "在 CTF 流量分析中，使用________工具可以捕获和分析网络数据包。",
+    "options": {},
+    "answer": "Wireshark"
+  }
+]
