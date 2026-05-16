@@ -3,6 +3,10 @@
 > 🚩 A containerized online theory exam platform for CTF competitions.  
 > Built for [hello-ctf.com](https://hello-ctf.com) and compatible with mainstream CTF platforms.
 
+<img width="2527" height="1377" alt="image" src="https://github.com/user-attachments/assets/d1d8138a-08a5-4f7d-b25f-5571d5dbad5b" />
+<img width="1031" height="1341" alt="image" src="https://github.com/user-attachments/assets/fa02a5cc-d6a5-436d-b168-3c4e2bcca81c" />
+
+
 [简体中文](#功能特性) | [English](#features)
 
 ---
